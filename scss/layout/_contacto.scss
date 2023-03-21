@@ -1,0 +1,51 @@
+.main {
+    .contacto {
+        margin-top: 28px;
+        .contacto__tittle {
+            text-transform: uppercase;
+            font-weight: 200;
+            letter-spacing: 4px;
+        }
+        .form {
+            max-width: 600px;
+            width: 90%;
+            .form__container {
+                 .form__input {
+                    padding: 10px 40px;
+                    padding-left: 10px;
+                    margin: 5px 0;
+                    font-size: 16px;
+                    outline: none;
+                    border: none;
+                    border: 1px solid #bbb0b0;
+                    border-radius: 0.2em;
+                    width: 90%;
+                }
+                .form__input--message {
+                    resize: none;
+                    padding: 30px 40px;
+                    padding-left: 10px;
+                    
+                }
+                .form__btn {
+                    margin-top: 8px;
+                    background-color: $white;
+                    border: 2px solid $black;
+                    padding: 14px 30px;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                    &:hover {
+                        background-color: $black;
+                        color: $white;
+                        
+                        cursor: pointer;
+                        transition: .1s ease-in-out;
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@media screen and (min-width: 760px) {
+    main {
+        .menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 85%;
+            row-gap: 30px;
+            .tittle {
+                .menu__tittle {
+                    font-size: 50px;
+                }
+                .menu__subtittle {
+                    font-size: 35px;
+                    margin-bottom: 60px;
+                }
+            }
+            .tittle {
+                flex-basis:100%;
+            }
+            .platos {
+                margin-bottom: 0;
+                flex-basis: 50%;
+                .platos__tittle {
+                    font-size: 30px;
+                    margin-bottom: 0;
+                }
+                .platos__paragraph {
+                    font-size: 18px;
+                    font-weight: 200;
+                }
+            }
+        }
+    }
+}

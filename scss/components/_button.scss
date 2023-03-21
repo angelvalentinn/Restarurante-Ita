@@ -1,0 +1,14 @@
+.btn {
+    padding: 6px 22px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    a {
+        color: $black;
+        text-decoration: none;
+        
+    }
+    &:hover {
+        background-color: rgba(255, 249, 249, 0.731);
+    }
+}

@@ -1,0 +1,16 @@
+.main {
+    .footer {
+        width: 100%;
+        background-color: $color-principal;
+        .redes {
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            .redes__icon {
+                color: $white;
+                font-size: 30px;
+            }
+        }
+    }
+}

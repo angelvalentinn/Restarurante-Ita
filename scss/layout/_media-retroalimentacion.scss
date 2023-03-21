@@ -1,0 +1,17 @@
+@media screen and (min-width: 760px) {
+    .main {
+        .retroalimentacion {
+            .retroalimentacion__imagen__container {
+                height: 700px;
+                .overlay {
+                    .overlay__tittle {
+                        font-size: 40px;
+                    }
+                    .overlay__paragraph {
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+}

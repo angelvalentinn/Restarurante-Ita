@@ -1,0 +1,49 @@
+.main {
+    .retroalimentacion {
+        width: 100%;
+        overflow: hidden;
+        .retroalimentacion__imagen__container {
+            height: 500px;
+            width: 100%;
+            position: relative;
+            .retroalimentacion__img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+            .overlay {
+                position: absolute;
+                background-color: rgba(0,0,0,.5);
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height: 0;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: $white;
+                transition: .5s ease;
+                .overlay__tittle {
+                    text-transform: uppercase;
+                    font-weight: 300;
+                    letter-spacing: 4px;
+                    font-size: 22px;
+                    margin-top: 40px;
+                }
+                .overlay__paragraph {
+                    margin-top: 20px;
+                    font-size: 22px;
+                    width: 80%;
+                    max-width: 600px;
+                }
+            }
+            &:hover .overlay{
+                cursor: pointer;
+                height: 100%;
+            }
+        }
+    }
+}

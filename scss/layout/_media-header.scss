@@ -1,0 +1,35 @@
+@media screen and (min-width: 760px) {
+
+    .header {
+        .container-header {
+            .nav {
+                .header__links{
+                    .header__link {
+                        font-size: 25px;
+                        
+                    }
+                    
+                }
+            }
+            .header__logo {
+                font-size: 80px;
+            }
+            .text {
+                margin-top: 15px;
+                .text__tittle {
+                    font-size: 50px;
+                    margin-bottom: 20px;
+                }
+                .text__paragraph {
+                    line-height: 1.5;
+                    font-size: 22px;
+                    width: 95%;
+                }
+                .header__arrow {
+                    font-size: 80px;
+                }
+            }
+        }
+    }
+
+}

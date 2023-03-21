@@ -1,0 +1,13 @@
+@media screen and (min-width: 760px) {
+    .main {
+        
+        .sobre-nosotros {
+            
+            .sobre-nosotros__grid {
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows: 300px 300px;
+                
+            }
+        }
+    }
+}
